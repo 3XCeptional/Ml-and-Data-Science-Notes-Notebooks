@@ -11,7 +11,8 @@ The root mean square error (RMSE) **measures the average difference between a st
 RMSE quantifies how dispersed these residuals are, revealing how tightly the observed data clusters around the predicted values.
 
 Image depicting the relationship between the residuals and the root mean square error (RMSE).
-![rsme](image-1.png)
+
+- ![rsme](image-1.png)
 
 - RMSE values can range from zero to positive infinity and use the same units as the dependent (outcome) variable.
 
