@@ -41,4 +41,4 @@
 * **One-vs-One:** Trains a binary classifier for each pair of classes.
 * **Hierarchical Classification:** Organizes classes in a hierarchical structure.
 
-**Would you like to delve deeper into a specific algorithm or application of multiclass prediction?**
+
