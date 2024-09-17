@@ -70,4 +70,4 @@ Python plays a critical role in machine learning due to its extensive libraries 
 
 These libraries offer tools for data manipulation, analysis, and building machine learning models. Python’s readability and platform independence make it an ideal language for machine learning.
 
-More details can be found --> credits : [**geeksforgeeks** ](https://www.geeksforgeeks.org/machine-learning-with-python/?ref=ml_lbp).
+More details can be found --> credits : [**geeksforgeeks**](https://www.geeksforgeeks.org/machine-learning-with-python/?ref=ml_lbp).
