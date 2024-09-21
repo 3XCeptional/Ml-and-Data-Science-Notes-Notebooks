@@ -45,6 +45,7 @@ sys.stdout.flush()
 ![elbow method](images/elbow.png)
 - The elbow method shows that 2 is a good value for K, so we retrain and visualize the result:
 - We can then fit our K-means algorithm one more time and plot the different clusters assigned to the data:
+
 ```py
 
 kmeans = KMeans(n_clusters=2)
