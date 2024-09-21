@@ -4,10 +4,10 @@ Welcome to my **Machine Learning & Data Science Notes** repository. This repo se
 
 ## Table of Contents
 
-- [Supervised vs Unsupervised Learning](notes/supervised_unsupervised_learning.md)
-- [Overfitting and Its Prevention](notes/overfitting.md)
-- [Supervised Learning Algorithms](notes/supervised_learning_algorithms.md)
-- [Unsupervised Learning Algorithms](notes/unsupervised_learning_algorithms.md)
+- [Supervised vs Unsupervised Learning](Machine_learning\Supervised_vs_Unsupervised)
+- [Overfitting and Its Prevention](Machine_learning\basics\overfitting.md)
+- [Supervised Learning Algorithms](Machine_learning\Supervised_vs_Unsupervised\supervised)
+- [Unsupervised Learning Algorithms](Machine_learning\Supervised_vs_Unsupervised\Unsupervised)
 - [Error Metrics: RAE and RSS](notes/error_metrics.md)
 - [Machine Learning Overview](notes/machine_learning_overview.md)
 - [Python for Machine Learning](notes/python_machine_learning.md)
