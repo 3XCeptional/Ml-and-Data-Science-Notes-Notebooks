@@ -2,4 +2,7 @@
 
 
 *Commit*
-- `git commit -m "First release of Hello World!"`
+- `git commit -a -m "First release of Hello World!"`
+
+*To add a file*
+- use >> `git  add filename/*`
