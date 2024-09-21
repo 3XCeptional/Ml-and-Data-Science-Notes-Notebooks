@@ -42,7 +42,7 @@ sys.stdout.flush()
 
 ```
 ## The Following Diagrams shows elbow method :
-![elbow method](images\elbow.png)
+![elbow method](images/elbow.png)
 - The elbow method shows that 2 is a good value for K, so we retrain and visualize the result:
 - We can then fit our K-means algorithm one more time and plot the different clusters assigned to the data:
 
@@ -54,7 +54,7 @@ plt.scatter(x, y, c=kmeans.labels_)
 plt.show()
 ```
 ### result :  2 Cluster
-![Result](images//result.png)
+![Result](images/result.png)
 
 ## Sample kmeans code
 
