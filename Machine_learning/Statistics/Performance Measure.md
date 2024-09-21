@@ -12,7 +12,7 @@ RMSE quantifies how dispersed these residuals are, revealing how tightly the obs
 
 Image depicting the relationship between the residuals and the root mean square error (RMSE).
 
-- ![rsme](image-1.png)
+- ![rsme](image-2.png)
 
 - RMSE values can range from zero to positive infinity and use the same units as the dependent (outcome) variable.
 
