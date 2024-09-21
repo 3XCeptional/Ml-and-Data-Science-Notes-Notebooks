@@ -11,7 +11,7 @@ Welcome to my **Machine Learning & Data Science Notes** repository. This repo se
 - [Error Metrics: RAE and RSS](notes/error_metrics.md)
 - [Machine Learning Overview](notes/machine_learning_overview.md)
 - [Python for Machine Learning](notes/python_machine_learning.md)
-- [My Notebooks](Notebooks)
+- [My Notebooks](DataScience_and_ML_Notebooks)
 
 ## Overview
 
