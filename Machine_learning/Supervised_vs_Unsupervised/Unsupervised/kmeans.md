@@ -72,5 +72,5 @@ for k, col in zip(range(len(k_means3.cluster_centers_)), colors):
 plt.show()
 ```
 Checkout my Notebooks  on Customer Segmentation Using K-Means Clustering 
-- [source](.\DataScience_and_ML_Notebooks\kmeans\Customer Segmentation Using K-Means Clustering.ipynb)
+- [Notebooks:](/DataScience_and_ML_Notebooks/)
 - [Source : www.w3schools](https://www.w3schools.com/python/python_ml_k-means.asp)
