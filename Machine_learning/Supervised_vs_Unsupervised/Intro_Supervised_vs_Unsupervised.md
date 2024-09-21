@@ -13,13 +13,13 @@
 - Decision Trees and Random Forests
 - Neural Networks
 
-![Supervised Learning](image.png)
+![Supervised Learning](images/image.png)
 
 ## Unsupervised Learning
 - Unsupervised machine learning is a type of machine learning where the algorithm learns patterns from data that is not labeled. This means the data doesn’t have predefined categories or outcomes. Instead, the algorithm tries to find hidden patterns or groupings within the data on its own.
     - Example: If you have a set of animal photos without labels, an unsupervised algorithm can group similar photos together (e.g., cats in one group and dogs in another).
 
-![Unsupervised Learning](image-1.png)
+![Unsupervised Learning](images/image-1.png)
 
 ## Error Metrics: RAE and RSS
 

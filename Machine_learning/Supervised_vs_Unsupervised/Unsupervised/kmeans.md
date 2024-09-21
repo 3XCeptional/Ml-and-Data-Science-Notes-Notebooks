@@ -2,6 +2,7 @@
 
 
 ## Sample kmeans code
+
 ```py
 k_means3 = KMeans(init = "k-means++", n_clusters = 3, n_init = 12)
 k_means3.fit(X)

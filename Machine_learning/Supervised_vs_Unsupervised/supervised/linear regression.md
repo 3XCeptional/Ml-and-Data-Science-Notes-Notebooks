@@ -13,8 +13,7 @@ Supervised learning is a type of machine learning where the algorithm learns fro
 
 ## Types of Linear Regression
 
-![[Machine_learning/Supervised_vs_Unsupervised/supervised/images/image.png]]
-
+![alt text](images/image.png)
 
 - **Simple Linear Regression**: A model with one independent feature predicting one target variable.
 - **Multiple Linear Regression**: A model with more than one independent feature predicting a single target variable.
