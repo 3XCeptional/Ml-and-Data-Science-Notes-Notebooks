@@ -54,7 +54,7 @@ plt.scatter(x, y, c=kmeans.labels_)
 plt.show()
 ```
 ### result :  2 Cluster
-![Result](images\result.png)
+![Result](images//result.png)
 
 ## Sample kmeans code
 
