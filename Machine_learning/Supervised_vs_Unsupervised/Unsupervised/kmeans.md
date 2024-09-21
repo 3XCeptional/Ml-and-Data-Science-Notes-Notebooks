@@ -7,11 +7,12 @@
 
 ![kmeans](https://miro.medium.com/max/2160/1*tWaaZX75oumVwBMcKN-eHA.png)
 
+Read more : [Introduction to K-Means Clustering ](https://www.kaggle.com/code/prashant111/k-means-clustering-with-python)
 
 ### how to use K-means
 - Import statement `from sklearn.cluster import KMeans` (note : pip install scikit-learn)
 
-Read more : [Introduction to K-Means Clustering ](https://www.kaggle.com/code/prashant111/k-means-clustering-with-python)
+
 
 ```py
 
@@ -91,3 +92,4 @@ plt.show()
 ## More Resources :
 - [K-Means Clustering with Python](https://www.kaggle.com/code/prashant111/k-means-clustering-with-python)
 - [Source : www.w3schools](https://www.w3schools.com/python/python_ml_k-means.asp)
+- [geekforgeeks](https://www.geeksforgeeks.org/elbow-method-for-optimal-value-of-k-in-kmeans/)
