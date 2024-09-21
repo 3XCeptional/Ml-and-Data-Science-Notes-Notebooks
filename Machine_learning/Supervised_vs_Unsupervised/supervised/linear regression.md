@@ -12,7 +12,7 @@ Supervised learning is a type of machine learning where the algorithm learns fro
 - **Regression**: Predicts continuous output variables based on input features, like estimating house prices based on size, location, etc.
 
 ## Types of Linear Regression
-![alt text](image.png)
+![alt text](Machine_learning\Supervised_vs_Unsupervised\supervised\images\image.png)
 - **Simple Linear Regression**: A model with one independent feature predicting one target variable.
 - **Multiple Linear Regression**: A model with more than one independent feature predicting a single target variable.
 - **Univariate Linear Regression**: A model with one dependent variable.
