@@ -4,7 +4,7 @@ K-means is an unsupervised learning method for clustering data points. The algor
 
 
 
-- [Source : www.w3schools](https://www.w3schools.com/python/python_ml_k-means.asp)
+
 
 ### how to use K-means
 - Import statement `from sklearn.cluster import KMeans` (note : pip install scikit-learn)
@@ -71,3 +71,6 @@ for k, col in zip(range(len(k_means3.cluster_centers_)), colors):
     ax.plot(cluster_center[0], cluster_center[1], 'o', markerfacecolor=col,  markeredgecolor='k', markersize=6)
 plt.show()
 ```
+Checkout my Notebooks  on Customer Segmentation Using K-Means Clustering 
+- [source](DataScience_and_ML_Notebooks/kmeans/Customer Segmentation Using K-Means Clustering.ipynb)
+- [Source : www.w3schools](https://www.w3schools.com/python/python_ml_k-means.asp)
