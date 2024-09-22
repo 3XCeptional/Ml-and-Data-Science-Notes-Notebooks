@@ -24,3 +24,7 @@
 
 - **Description**: Created a model to predict customer churn for a subscription-based service, allowing for proactive retention strategies.
 - **Technologies**: Python, Scikit-Learn, Pandas, Matplotlib
+
+
+
+## Get back repo? --> : [https://github.com/3XCeptional/Ml-and-Data-Science-Notes-Notebooks/](https://github.com/3XCeptional/Ml-and-Data-Science-Notes-Notebooks/)

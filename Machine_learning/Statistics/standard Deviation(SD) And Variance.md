@@ -23,3 +23,10 @@ To calculate the variance follow these steps:
 - Then for each number: subtract the Mean and square the result (the _squared difference_).
 - Then work out the average of those squared differences. ([Why Square?](https://www.mathsisfun.com/data/standard-deviation.html#WhySquare))
 ![alt text](image.png)
+
+
+
+
+
+
+## Get back repo? --> : [https://github.com/3XCeptional/Ml-and-Data-Science-Notes-Notebooks/](https://github.com/3XCeptional/Ml-and-Data-Science-Notes-Notebooks/)

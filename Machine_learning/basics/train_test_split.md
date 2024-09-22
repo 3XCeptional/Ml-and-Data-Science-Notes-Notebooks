@@ -13,7 +13,7 @@ from sklearn.model_selection import train_test_split
 # The split is based on a random number generator. Supplying a numeric value to
 # the random_state argument guarantees we get the same split every time we
 # run this script.
-train_X, val_X, train_y, val_y = train_test_split(X, y, random_state = 0) ## val == validation
+train_X, val_X, train_y, val_y = train_test_split(X, y, random_state = 42) ## val == validation
 # Define model
 melbourne_model = DecisionTreeRegressor()
 # Fit model
@@ -24,3 +24,8 @@ val_predictions = melbourne_model.predict(val_X)
 print(mean_absolute_error(val_y, val_predictions))
 
 ```
+
+
+
+
+## Get back repo? --> : [https://github.com/3XCeptional/Ml-and-Data-Science-Notes-Notebooks/](https://github.com/3XCeptional/Ml-and-Data-Science-Notes-Notebooks/)
