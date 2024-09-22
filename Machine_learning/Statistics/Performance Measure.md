@@ -17,7 +17,7 @@
 
 #### Formula for Mean Absolute Error (MAE)
 
-a
+
 \[
 \text{MAE} = \frac{1}{n} \sum_{i=1}^{n} | y_i - \hat{y_i} |
 \]
