@@ -37,5 +37,5 @@ To follow along with these notes, you should have:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/3XCeptional/Notes.git
+   git clone https://github.com/3XCeptional/Ml-and-Data-Science-Notes-Notebooks.git
    cd Notes
