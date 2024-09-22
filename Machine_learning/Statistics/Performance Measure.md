@@ -1,48 +1,85 @@
 
-## Mean Aboulute Error
+## Mean Absolute Error (MAE)
 
-- There are many metrics for summarizing model quality, but we'll start with one called Mean Absolute Error (also called MAE). Let's break down this metric starting with the last word, error.
+- In evaluating the quality of a regression model, several metrics are used, with one of the simplest being the **Mean Absolute Error (MAE)**. Let's first break down the concept of "error."
 
-- *The prediction error for each house is:*
+- The **prediction error** for each instance is calculated as:
 
-```error=actual−predicted```
-- So, if a house cost $150,000 and you predicted it would cost $100,000 the error is $50,000.
+  \[
+  \text{error} = \text{actual value} − \text{predicted value}
+  \]
 
-- With the MAE metric, we take the absolute value of each error. This converts each error to a positive number. We then take the average of those absolute errors. This is our measure of model quality. In plain English, it can be said as
+- For example, if a house's actual price is $150,000 and your model predicts $100,000, the error would be $50,000.
 
-`On average, our predictions are off by about X.`
+- **MAE** takes the absolute value of each prediction error, converting all errors to positive values. Then, it averages these absolute errors, providing a measure of how far off, on average, the model's predictions are. In simple terms:
 
-#### SAMPLE CODE ==Mean Aboulute Error==
+  **"On average, our predictions are off by about X."**
+
+#### Formula for Mean Absolute Error (MAE)
+
+a
+\[
+\text{MAE} = \frac{1}{n} \sum_{i=1}^{n} | y_i - \hat{y_i} |
+\]
+
+Where:
+
+- \( y_i \) is the actual value.
+- \( \hat{y_i} \) is the predicted value.
+- \( n \) is the number of predictions.
+
+#### Example Code for Calculating MAE
 
 ```python
 from sklearn.metrics import mean_absolute_error
 
-predicted_home_prices = melbourne_model.predict(X)
-mean_absolute_error(y, predicted_home_prices)
-
+predicted_home_prices = model.predict(X)
+mae = mean_absolute_error(y_true, predicted_home_prices)
+print("Mean Absolute Error:", mae)
 ```
+
+---
 
 ## Root Mean Square Error (RMSE)
 
-- A typical performance measure for regression problems is the Root Mean Square Error (RMSE).
-![RMSE formula](images/image.png)
+- Another common metric for regression model performance is the **Root Mean Square Error (RMSE)**.
 
-## What is the Root Mean Square Error?
+#### Formula for Root Mean Square Error (RMSE)
 
-The root mean square error (RMSE) **measures the average difference between a statistical model’s predicted values and the actual values**. Mathematically, it is the standard deviation of the residuals. Residuals represent the distance between the regression line and the data points.
+\[
+\text{RMSE} = \sqrt{ \frac{1}{n} \sum_{i=1}^{n} ( y_i - \hat{y_i} )^2 }
+\]
 
-RMSE quantifies how dispersed these residuals are, revealing how tightly the observed data clusters around the predicted values.
+Where:
 
-Image depicting the relationship between the residuals and the root mean square error (RMSE).
+- \( y_i \) is the actual value.
+- \( \hat{y_i} \) is the predicted value.
+- \( n \) is the number of predictions.
 
-- ![rsme](images/image-2.png)
+### What is Root Mean Square Error?
 
-- RMSE values can range from zero to positive infinity and use the same units as the dependent (outcome) variable.
+RMSE measures the **average magnitude of error** between the predicted values and the actual values in a model. It represents the **standard deviation of the residuals**, which are the differences between the predicted and actual values. In other words, RMSE tells us how far the observed data points are from the regression line.
 
-- A value of 0 means that the predicted values perfectly match the actual values, but you’ll never see that in practice. Low RMSE values indicate that the model fits the data well and has more precise predictions. Conversely, higher values suggest more error and less precise predictions.
+- RMSE can take any value from zero to positive infinity, and it uses the same units as the dependent variable (e.g., dollars, meters).
+
+- A **RMSE of 0** would indicate a perfect prediction match, though this is rarely achievable in practice. Lower RMSE values indicate a model with higher predictive accuracy, while higher RMSE values suggest the model is less precise.
+
+#### Visualization
+
+- Residuals are the vertical distances between the data points and the predicted regression line, which are used to calculate the RMSE.
+
+![RMSE Residuals](images/image-2.png)
+
+### Key Insights
+
+- **Lower RMSE** values indicate better model performance, as the predictions are closer to the actual values.
+- RMSE is particularly useful for comparing the performance of different models or assessing how well a model generalizes to new data.
 
 ---
-*Sources / Credits :*
 
-- Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems By  Aurélien Géron (Author) - Book
-- [Root Mean Square Error (RMSE)](https://statisticsbyjim.com/regression/root-mean-square-error-rmse/)
+### Sources
+
+- Aurélien Géron, *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems* (Book)
+- [Root Mean Square Error (RMSE) Overview](https://statisticsbyjim.com/regression/root-mean-square-error-rmse/)
+
+---
