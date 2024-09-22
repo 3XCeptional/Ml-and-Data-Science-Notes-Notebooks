@@ -20,6 +20,7 @@ Welcome to my **Machine Learning & Data Science Notes** repository. This repo se
 ## Overview
 
 This repository contains notes and explanations on:
+
 - **Supervised Learning**: Explore classification and regression tasks, including commonly used algorithms like Linear Regression, Logistic Regression, Decision Trees, and Neural Networks.
 - **Unsupervised Learning**: Learn about clustering techniques, anomaly detection, and other algorithms that don't rely on labeled data.
 - **Key Concepts**: Topics like overfitting, performance metrics (e.g., RAE, RSS), and cross-validation are covered to enhance your understanding of model evaluation and improvement.
@@ -29,6 +30,7 @@ This repository contains notes and explanations on:
 ## Prerequisites
 
 To follow along with these notes, you should have:
+
 - A basic understanding of Python.
 - Knowledge of fundamental machine learning concepts.
 - Python libraries such as `NumPy`, `Pandas`, `Matplotlib`, `Scikit-learn`, and `TensorFlow` installed.
@@ -36,9 +38,10 @@ To follow along with these notes, you should have:
 ## How to Use
 
 1. **Clone the Repository**:
+
    ```bash
    
    git clone https://github.com/3XCeptional/Ml-and-Data-Science-Notes-Notebooks.git
    ```
 
-## Get back repo? --> : [https://github.com/3XCeptional/Ml-and-Data-Science-Notes-Notebooks/](https://github.com/3XCeptional/Ml-and-Data-Science-Notes-Notebooks/)
+- Get back repo? --> : [3XCeptional/Ml-and-Data-Science-Notes-Notebooks](https://github.com/3XCeptional/Ml-and-Data-Science-Notes-Notebooks/)
