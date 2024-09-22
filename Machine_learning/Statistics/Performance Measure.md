@@ -5,9 +5,7 @@
 
 - The **prediction error** for each instance is calculated as:
 
-  \[
-  \text{error} = \text{actual value} − \text{predicted value}
-  \]
+  ```error = actual value − predicted value```
 
 - For example, if a house's actual price is $150,000 and your model predicts $100,000, the error would be $50,000.
 
@@ -15,20 +13,18 @@
 
   **"On average, our predictions are off by about X."**
 
-#### Formula for Mean Absolute Error (MAE)
+#### Formula for Mean Absolute Error (MAE):
 
-
-\[
+```math
 \text{MAE} = \frac{1}{n} \sum_{i=1}^{n} | y_i - \hat{y_i} |
-\]
+```
 
 Where:
-
 - \( y_i \) is the actual value.
 - \( \hat{y_i} \) is the predicted value.
 - \( n \) is the number of predictions.
 
-#### Example Code for Calculating MAE
+#### Example Code for Calculating MAE:
 
 ```python
 from sklearn.metrics import mean_absolute_error
@@ -44,14 +40,13 @@ print("Mean Absolute Error:", mae)
 
 - Another common metric for regression model performance is the **Root Mean Square Error (RMSE)**.
 
-#### Formula for Root Mean Square Error (RMSE)
+#### Formula for Root Mean Square Error (RMSE):
 
-\[
+```math
 \text{RMSE} = \sqrt{ \frac{1}{n} \sum_{i=1}^{n} ( y_i - \hat{y_i} )^2 }
-\]
+```
 
 Where:
-
 - \( y_i \) is the actual value.
 - \( \hat{y_i} \) is the predicted value.
 - \( n \) is the number of predictions.
@@ -64,22 +59,21 @@ RMSE measures the **average magnitude of error** between the predicted values an
 
 - A **RMSE of 0** would indicate a perfect prediction match, though this is rarely achievable in practice. Lower RMSE values indicate a model with higher predictive accuracy, while higher RMSE values suggest the model is less precise.
 
-#### Visualization
+### Visualization of Residuals and RMSE:
 
-- Residuals are the vertical distances between the data points and the predicted regression line, which are used to calculate the RMSE.
+![Residuals and RMSE](images/image-2.png)
 
-![RMSE Residuals](images/image-2.png)
+---
 
-### Key Insights
-
+### Key Insights:
 - **Lower RMSE** values indicate better model performance, as the predictions are closer to the actual values.
 - RMSE is particularly useful for comparing the performance of different models or assessing how well a model generalizes to new data.
 
 ---
 
-### Sources
-
+### Sources:
 - Aurélien Géron, *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems* (Book)
 - [Root Mean Square Error (RMSE) Overview](https://statisticsbyjim.com/regression/root-mean-square-error-rmse/)
 
 ---
+
