@@ -30,8 +30,12 @@ Where:
 from sklearn.metrics import mean_absolute_error
 
 predicted_home_prices = model.predict(X)
-mae = mean_absolute_error(y_true, predicted_home_prices)
+mae = mean_absolute_error(y_true, predicted_home_prices) ## Observe this line
 print("Mean Absolute Error:", mae)
+```
+
+```python
+Output : 434.71594577146544
 ```
 
 ---
