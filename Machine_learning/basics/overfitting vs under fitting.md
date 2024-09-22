@@ -18,7 +18,7 @@
 - Increase the number of epochs or increase the duration of training to get better results.
 ---
 ## Overfitting in Machine Learning
-A statistical model is said to be overfitted when the model does not make accurate predictions on testing data.When a model gets trained with **so much data, it starts learning from the noise and inaccurate data entries in our data set.** And when testing with test data results in High variance. (*basically we we have toomuch noice / complex unecessary data*)
+A statistical model is said to be overfitted when the model does not make accurate predictions on testing data.When a model gets trained with **so much data, it starts learning from the noise and inaccurate data entries in our data set.** And when testing with test data results in High variance. (*basically  we have too much noise / complex unecessary data*)
 
 **Reasons for Overfitting:**
 - High variance and low bias.
