@@ -1,4 +1,27 @@
 
+## Mean Aboulute Error
+
+- There are many metrics for summarizing model quality, but we'll start with one called Mean Absolute Error (also called MAE). Let's break down this metric starting with the last word, error.
+
+- *The prediction error for each house is:*
+
+```error=actual−predicted```
+- So, if a house cost $150,000 and you predicted it would cost $100,000 the error is $50,000.
+
+- With the MAE metric, we take the absolute value of each error. This converts each error to a positive number. We then take the average of those absolute errors. This is our measure of model quality. In plain English, it can be said as
+
+`On average, our predictions are off by about X.`
+
+#### SAMPLE CODE ==Mean Aboulute Error==
+
+```python
+from sklearn.metrics import mean_absolute_error
+
+predicted_home_prices = melbourne_model.predict(X)
+mean_absolute_error(y, predicted_home_prices)
+
+```
+
 ## Root Mean Square Error (RMSE)
 
 - A typical performance measure for regression problems is the Root Mean Square Error (RMSE).
