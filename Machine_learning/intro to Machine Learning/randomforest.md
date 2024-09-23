@@ -110,7 +110,7 @@ from sklearn.metrics import accuracy_score, classification_report
 import warnings
 warnings.filterwarnings('ignore')
 # Load the Titanic dataset
-url = &quot;https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv&quot;
+url = 'https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv'
 titanic_data = pd.read_csv(url)
 
 # Drop rows with missing target values
@@ -143,8 +143,8 @@ accuracy = accuracy_score(y_test, y_pred)
 classification_rep = classification_report(y_test, y_pred)
 
 # Print the results
-print(f&quot;Accuracy: {accuracy:.2f}&quot;)
-print(&quot;\nClassification Report:\n&quot;, classification_rep)
+print(f'Accuracy: {accuracy:.2f}')
+print('\nClassification Report:\n', classification_rep)
 ```
 ## OUTPUT:
 ```
@@ -210,7 +210,7 @@ R-squared Score: 0.81
 
 ```
 
-## Sources
+## Sources/Credits:
 
 - <https://www.kaggle.com/code/dansbecker/random-forests>
 - <https://www.ibm.com/topics/random-forest#:~:text=Random%20forest%20is%20a%20commonly,both%20classification%20and%20regression%20problems>.
