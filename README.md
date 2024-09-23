@@ -1,5 +1,4 @@
 
----
 
 # Machine Learning & Data Science Notes
 
@@ -7,25 +6,30 @@ Welcome to my **Machine Learning & Data Science Notes** repository. This reposit
 
 ## Table of Contents
 
-- [Basics](./intro_to_Machine_Learning)
-  - [Overfitting vs Underfitting](./intro_to_Machine_Learning/overfitting_vs_underfitting.md)
-  - [Overfitting](./intro_to_Machine_Learning/overfitting.md)
-  - [Train/Test Split](./intro_to_Machine_Learning/train_test_split.md)
-  - [Random Forest](./intro_to_Machine_Learning/randomforest.md)
-  - [Decision Trees & Regressor](./intro_to_Machine_Learning/DecisionTree_and_DecisionTreeRegressor.md)
-- [Supervised vs Unsupervised Learning](./Supervised_vs_Unsupervised)
-  - [Introduction](./Supervised_vs_Unsupervised/Intro_Supervised_vs_Unsupervised.md)
-  - [Supervised Learning Algorithms](./Supervised_vs_Unsupervised/supervised)
-    - [Linear Regression](./Supervised_vs_Unsupervised/supervised/linear_regression.md)
-  - [Unsupervised Learning Algorithms](./Supervised_vs_Unsupervised/Unsupervised/kmeans.md)
-- [Statistics](./Statistics)
-  - [Performance Metrics](./Statistics/performance_measure.md)
-  - [Standard Deviation and Variance](./Statistics/standard_deviation_variance.md)
-- [Git Commands for ML Projects](./git_commands.md)
-- [Multiclass Prediction](./Multiclass_prediction.md)
-- [Projects To-Do List](./projects_todo.md)
 
-## Overview
+---
+
+- [Basics](./Machine_learning/intro_to_Machine_Learning)
+  - [Overfitting vs Underfitting](./Machine_learning/intro_to_Machine_Learning/overfitting_vs_underfitting.md)
+  - [Overfitting](./Machine_learning/intro_to_Machine_Learning/overfitting.md)
+  - [Train/Test Split](./Machine_learning/intro_to_Machine_Learning/train_test_split.md)
+  - [Random Forest](./Machine_learning/intro_to_Machine_Learning/randomforest.md)
+  - [Decision Trees & Regressor](./Machine_learning/intro_to_Machine_Learning/DecisionTree_and_DecisionTreeRegressor.md)
+- [Supervised vs Unsupervised Learning](./Machine_learning/Supervised_vs_Unsupervised)
+  - [Introduction](./Machine_learning/Supervised_vs_Unsupervised/Intro_Supervised_vs_Unsupervised.md)
+  - [Supervised Learning Algorithms](./Machine_learning/Supervised_vs_Unsupervised/supervised)
+    - [Linear Regression](./Machine_learning/Supervised_vs_Unsupervised/supervised/linear_regression.md)
+  - [Unsupervised Learning Algorithms](./Machine_learning/Supervised_vs_Unsupervised/Unsupervised/kmeans.md)
+- [Statistics](./Machine_learning/Statistics)
+  - [Performance Metrics](./Machine_learning/Statistics/performance_measure.md)
+  - [Standard Deviation and Variance](./Machine_learning/Statistics/standard_deviation_variance.md)
+- [Git Commands for ML Projects](./Machine_learning/git_commands.md)
+- [Multiclass Prediction](./Machine_learning/multiclass_prediction.md)
+- [Projects To-Do List](./Machine_learning/projects_todo.md)
+
+---
+
+
 
 This repository contains notes and explanations on:
 
@@ -54,4 +58,3 @@ To follow along with these notes, you should have:
 2. Explore the repository content at [3XCeptional/Ml-and-Data-Science-Notes-Notebooks](https://github.com/3XCeptional/Ml-and-Data-Science-Notes-Notebooks/).
 
 ---
-
