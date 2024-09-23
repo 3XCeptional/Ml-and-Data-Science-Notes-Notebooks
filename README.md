@@ -7,14 +7,14 @@ Welcome to my **Machine Learning & Data Science Notes** repository. This reposit
 ## Table of Contents
 
 
----
 
-- [Basics](./Machine_learning/intro_to_Machine_Learning)
-  - [Overfitting vs Underfitting](./Machine_learning/intro_to_Machine_Learning/overfitting_vs_underfitting.md)
-  - [Overfitting](./Machine_learning/intro_to_Machine_Learning/overfitting.md)
-  - [Train/Test Split](./Machine_learning/intro_to_Machine_Learning/train_test_split.md)
-  - [Random Forest](./Machine_learning/intro_to_Machine_Learning/randomforest.md)
-  - [Decision Trees & Regressor](./Machine_learning/intro_to_Machine_Learning/DecisionTree_and_DecisionTreeRegressor.md)
+
+- [Basics](./Machine_learning/intro%20to%20Machine%20Learning)
+  - [Overfitting vs Underfitting](./Machine_learning/intro%20to%20Machine%20Learning/overfitting_vs_underfitting.md)
+  - [Overfitting](./Machine_learning/intro%20to%20Machine%20Learning/overfitting.md)
+  - [Train/Test Split](./Machine_learning/intro%20to%20Machine%20Learning/train_test_split.md)
+  - [Random Forest](./Machine_learning/intro%20to%20Machine%20Learning/randomforest.md)
+  - [Decision Trees & Regressor](./Machine_learning/intro%20to%20Machine%20Learning/DecisionTree_and_DecisionTreeRegressor.md)
 - [Supervised vs Unsupervised Learning](./Machine_learning/Supervised_vs_Unsupervised)
   - [Introduction](./Machine_learning/Supervised_vs_Unsupervised/Intro_Supervised_vs_Unsupervised.md)
   - [Supervised Learning Algorithms](./Machine_learning/Supervised_vs_Unsupervised/supervised)
@@ -26,8 +26,6 @@ Welcome to my **Machine Learning & Data Science Notes** repository. This reposit
 - [Git Commands for ML Projects](./Machine_learning/git_commands.md)
 - [Multiclass Prediction](./Machine_learning/multiclass_prediction.md)
 - [Projects To-Do List](./Machine_learning/projects_todo.md)
-
----
 
 
 
