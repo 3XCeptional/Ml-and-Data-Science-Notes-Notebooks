@@ -145,7 +145,21 @@ classification_rep = classification_report(y_test, y_pred)
 # Print the results
 print(f&quot;Accuracy: {accuracy:.2f}&quot;)
 print(&quot;\nClassification Report:\n&quot;, classification_rep)
+```
+## OUTPUT:
+```
 
+Accuracy: 0.80
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.82      0.85      0.83       105
+           1       0.77      0.73      0.75        74
+
+    accuracy                           0.80       179
+   macro avg       0.79      0.79      0.79       179
+weighted avg       0.80      0.80      0.80       179
 
 ```
 
@@ -188,6 +202,11 @@ r2 = r2_score(y_test, y_pred)
 print(f&quot;Mean Squared Error: {mse:.2f}&quot;)
 print(f&quot;R-squared Score: {r2:.2f}&quot;)
 
+```
+## OUTPUT:
+```
+Mean Squared Error: 0.26
+R-squared Score: 0.81
 
 ```
 
