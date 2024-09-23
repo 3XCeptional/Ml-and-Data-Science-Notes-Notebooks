@@ -16,7 +16,8 @@
 
 ![decision tree](https://d2jdgazzki9vjm.cloudfront.net/tutorial/machine-learning/images/decision-tree-classification-algorithm.png)
 
-**Example:** Suppose there is a candidate who has a job offer and wants to decide whether he should accept the offer or Not. So, to solve this problem, the decision tree starts with the root node (Salary attribute by ASM). The root node splits further into the next decision node (distance from the office) and one leaf node based on the corresponding labels. The next decision node further gets split into one decision node (Cab facility) and one leaf node. Finally, the decision node splits into two leaf nodes (Accepted offers and Declined offer). Consider the below diagram:
+**Example:** Suppose there is a candidate who has a job offer and wants to decide whether he should accept the offer or Not. So, to solve this problem, the decision tree starts with the root node (Salary attribute by ASM). The root node splits further into the next decision node (distance from the office) and one leaf node based on the corresponding labels. The next decision node further gets split into one decision node (Cab facility) and one leaf node. Finally, the decision node splits into two leaf nodes (Accepted offers and Declined offer). 
+- **Consider the below diagram:**
 
 ![example](https://d2jdgazzki9vjm.cloudfront.net/tutorial/machine-learning/images/decision-tree-classification-algorithm2.png)
 
@@ -24,18 +25,21 @@
 
 **Decision Tree** is a decision-making tool that uses a flowchart-like tree structure or is a model of decisions and all of their possible results, including outcomes, input costs, and utility.
 
-**Decision-tree algorithm** falls under the category of supervised learning algorithms. It works for both continuous as well as categorical output variables.
+**Decision-tree algorithm** falls under the category of <mark>supervised learning algorithms.</mark>  It works for both continuous as well as categorical output variables.
 
 The branches/edges represent the result of the node and the nodes have either:
 
-1. Conditions [Decision Nodes]
-2. Result [End Nodes]
+1. **Conditions** --> [Decision Nodes]
+
+2. **Result**  --> [End Nodes]
+
 
 **Decision Tree Regression:**
-Decision tree regression observes features of an object and trains a model in the structure of a tree to predict data in the future to produce meaningful continuous output. Continuous output means that the output/result is not discrete, i.e., it is not represented just by a discrete, known set of numbers or values.
+*Decision tree regression observes features of an object and trains a model in the structure of a tree to predict data in the future to produce meaningful continuous output.* Continuous output means that the output/result is not discrete, i.e., it is not represented just by a discrete, known set of numbers or values.
 
-**Discrete output example:** A weather prediction model that predicts whether or not there’ll be rain on a particular day.
-Continuous output example: A profit prediction model that states the probable profit that can be generated from the sale of a product.
+- **Discrete output example:** A weather prediction model that predicts whether or not there’ll be rain on a particular day.
+
+- **Continuous output example:** A profit prediction model that states the probable profit that can be generated from the sale of a product.
 Here, continuous values are predicted with the help of a decision tree regression model.
 
 ## How to import DecisionsTreeRegressor?
