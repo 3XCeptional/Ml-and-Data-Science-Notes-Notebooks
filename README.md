@@ -5,7 +5,7 @@ Welcome to my **Machine Learning & Data Science Notes** repository. This repo se
 ## Table of Contents
 
 - [Basics](./Machine_learning/basics)
-  - [Overfitting and Its Prevention](./Machine_learning/basics/overfitting.md)
+  - [Overfitting and Its Prevention](./Machine_learning/intro to Machine Learnings/overfitting.md)
 - [Supervised vs Unsupervised Learning](./Machine_learning/Supervised_vs_Unsupervised)
   - [Supervised Learning Algorithms](./Machine_learning/Supervised_vs_Unsupervised/supervised)
     - [Linear Regression](./Machine_learning/Supervised_vs_Unsupervised/supervised/linear_regression.md)
