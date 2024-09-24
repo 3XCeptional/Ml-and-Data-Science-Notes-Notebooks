@@ -7,7 +7,7 @@
 - **Machine Learning**: k-means
 -  1. [Customer Segmentation Using K-Means Clustering](https://github.com/3XCeptional/Ml-and-Data-Science-Notes-Notebooks/blob/main/DataScience_and_ML_Notebooks/kmeans/Customer%20Segmentation%20Using%20K-Means%20Clustering.ipynb)
 
-## 2. House Price Prediction Using Linear Regression
+## 2. House Price Prediction Using ML Algorithms
 
 - **Description**: Built a predictive model to estimate house prices based on various features such as location, size, and amenities using Random Forest 
 - **Technologies**: Python, Scikit-Learn, Pandas, Numpy
