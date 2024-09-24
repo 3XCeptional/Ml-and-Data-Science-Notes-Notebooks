@@ -25,7 +25,7 @@ Welcome to my **Machine Learning & Data Science Notes** repository. This reposit
   - [Standard Deviation and Variance](./Machine_learning/Statistics/standard_deviation_variance.md)
 - [Git Commands for ML Projects](./Machine_learning/git_commands.md)
 - [Multiclass Prediction](./Machine_learning/multiclass_prediction.md)
-- [Projects To-Do List](./Machine_learning/projects_todo.md)
+- [Projects](./Machine_learning/projects.md)
 
 
 
