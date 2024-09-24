@@ -11,7 +11,7 @@
 
 - **Description**: Built a predictive model to estimate house prices based on various features such as location, size, and amenities using Random Forest 
 - **Technologies**: Python, Scikit-Learn, Pandas, Numpy
-- **Machine Learning**: RandomForestRegressor 
+- **Machine Learning**: RandomForestRegressor , linear regression
 - 1. Exercise: Machine Learning Competitions Python · [(Housing Prices Competition for Kaggle Learn Users)](https://www.kaggle.com/code/dhirenbhandare/exercise-machine-learning-competitions)
 
 ## 3. Sentiment Analysis of Social Media Posts
