@@ -125,3 +125,7 @@ Response:
 - Use `*` to retrieve all columns from a table.
 - Use the **WHERE** clause to filter data based on a condition.
 
+
+
+## Credits / Sources :
+- https://www.coursera.org/learn/sql-data-science/ungradedWidget/yislI/select-statement-examples (**Author(s)** :Rav Ahuja & Abhishek Gagneja)
